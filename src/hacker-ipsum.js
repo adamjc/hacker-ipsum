@@ -13,7 +13,8 @@ var hackerate = (function () {
     'push',
     'pull',
     'destroy',
-    'hack'
+    'hack',
+    'reduce'
   ]
 
   const nounPrefixes = [
@@ -42,14 +43,17 @@ var hackerate = (function () {
     'alert',
     'matrix',
     'network',
-    'miner'
+    'miner',
+    '-inator'
   ]
 
   const statuses = [
     'offline',
     'online',
     'live',
-    'dead'
+    'dead',
+    'allowable',
+    'denied'
   ]
 
   const adjectives = [
@@ -57,7 +61,9 @@ var hackerate = (function () {
     'fantastic',
     'a mess',
     'noisy',
-    'advanced'
+    'advanced',
+    'refabricated',
+    'rotated'
   ]
 
   const templates = [
